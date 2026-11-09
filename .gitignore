@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Data files (keep raw/processed out of git)
+data/processed/*.csv
