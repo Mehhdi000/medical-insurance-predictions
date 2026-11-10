@@ -43,6 +43,9 @@ The primary objective was to move beyond black-box tuning and systematically inv
 3. **Model Tournament:** Evaluated Linear Regression against tree-based algorithms (Random Forest and XGBoost) using identical feature sets.
 4. **Interpretation:** Analyzed linear regression coefficients to isolate the exact mathematical impact of each feature on the predicted insurance charges.
 
+<img width="1768" height="1298" alt="scattersmoke" src="https://github.com/user-attachments/assets/c1cd9c39-beff-44c1-865a-63de2c854194" />
+
+
 ---
 
 ## Key Results
@@ -50,6 +53,9 @@ The primary objective was to move beyond black-box tuning and systematically inv
 * **Winning Model:** Linear Regression achieved an **$R^2$ score of 0.82**.
 * **Model Comparison:** Linear regression outperformed Random Forest (~0.79) and XGBoost (~0.79) because the engineered interaction terms matched the underlying linear structure of the compounded risk factors.
 * **Key Drivers:** Coefficient analysis proved that smoking status and tailored interaction flags accounted for the vast majority of the prediction weight.
+
+<img width="1728" height="1302" alt="my_seaborn_plot" src="https://github.com/user-attachments/assets/856a2fe2-2505-4423-b1b3-735435e48b1c" />
+
 
 ---
 
